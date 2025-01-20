@@ -83,7 +83,7 @@ on6.addEventListener("mouseover",changesix);
 
 function change6(){
     let get =document.getElementById("stat");
-    get.style.backgroundColor="white";
+    get.style.backgroundColor="#004080";
     get.style.transitionDuration="300ms";
 }
 
