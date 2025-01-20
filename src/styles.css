@@ -55,7 +55,7 @@ nav ul li a {
 
 .hero h1 {
     margin: 20px 0;
-    font-size: 24px
+    font-size: 24px;
     color: white;
 }
 
@@ -114,12 +114,13 @@ nav ul li a {
     padding: 30px;
     background-color:#00A8E8 ;
     color: white;
+    max-width: 100%;
 }
 
 .team-gallery {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    /* justify-content: center; */
+    /* gap: 15px; */
     margin-top: 20px;
 }
 
@@ -127,6 +128,7 @@ nav ul li a {
     width: 150px;
     height: 150px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 /* Footer */
@@ -206,6 +208,7 @@ header nav a:hover {
     margin-bottom: 20px;
 }
 
+
 .hero button {
     background-color: #ffca28;
     color: #333;
@@ -214,10 +217,11 @@ header nav a:hover {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    
 }
 
 .hero button:hover {
-    background-color: #ffc107;
+    background-color: initial;
 }
 
 .description {
@@ -447,9 +451,9 @@ h1, h2, h3, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(220, 14%, 96%);
     padding: 10px 20px;
     color: white;
+    background-color:  #0099cc;
 }
 
 .navbar h1 {
