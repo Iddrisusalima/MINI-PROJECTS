@@ -3,7 +3,6 @@ function changeone(){
     more.style.backgroundColor="#00A8E8";
     more.style.transitionDuration="300ms";
    
-   
 }
 
 let on1=document.getElementById("serve1");
@@ -24,7 +23,6 @@ function changetwo(){
     let more =document.getElementById("serve2");
     more.style.backgroundColor="#00A8E8";
     more.style.transitionDuration="300ms";
-   
    
 }
 
@@ -47,7 +45,6 @@ function changethree(){
     more.style.backgroundColor="#00A8E8";
     more.style.transitionDuration="300ms";
    
-   
 }
 
 let on3=document.getElementById("serve3");
@@ -69,7 +66,6 @@ function changefour(){
     more.style.backgroundColor="#00A8E8";
     more.style.transitionDuration="300ms";
    
-   
 }
 
 let on4=document.getElementById("serve4");
@@ -79,6 +75,7 @@ function change4(){
     let get =document.getElementById("serve4");
     get.style.backgroundColor="white";
     get.style.transitionDuration="300ms";
+    
 }
 
 let On4=document.getElementById("serve4");
@@ -89,8 +86,6 @@ function changefive(){
     let more =document.getElementById("serve5");
     more.style.backgroundColor="#00A8E8";
     more.style.transitionDuration="300ms";
-   
-   
 }
 
 let on5=document.getElementById("serve5");
@@ -112,7 +107,6 @@ function changesix(){
     more.style.backgroundColor="#00A8E8";
     more.style.transitionDuration="300ms";
    
-   
 }
 
 let on6=document.getElementById("serve6");
@@ -122,10 +116,77 @@ function change6(){
     let get =document.getElementById("serve6");
     get.style.backgroundColor="white";
     get.style.transitionDuration="300ms";
+    
 }
 
 let On6=document.getElementById("serve6");
 On6.addEventListener("mouseleave",change6);
+
+
+// change color 7
+function changeseven(){
+    let more =document.getElementById("serve7");
+    more.style.backgroundColor="#00A8E8";
+    more.style.transitionDuration="300ms";
+   
+}
+
+let on7=document.getElementById("serve7");
+on7.addEventListener("mouseover",changeseven);
+
+function change7(){
+    let get =document.getElementById("serve7");
+    get.style.backgroundColor="white";
+    get.style.transitionDuration="300ms";
+    
+}
+
+let On7=document.getElementById("serve7");
+On7.addEventListener("mouseleave",change7);
+
+// change color 8
+
+function changeeight(){
+    let more =document.getElementById("serve8");
+    more.style.backgroundColor="#00A8E8";
+    more.style.transitionDuration="300ms";
+   
+}
+
+let on8=document.getElementById("serve8");
+on8.addEventListener("mouseover",changeeight);
+
+function change8(){
+    let get =document.getElementById("serve8");
+    get.style.backgroundColor="white";
+    get.style.transitionDuration="300ms";
+    
+}
+
+let On8=document.getElementById("serve8");
+On8.addEventListener("mouseleave",change8);
+
+// change color 9
+function changenine(){
+    let more =document.getElementById("serve9");
+    more.style.backgroundColor="#00A8E8";
+    more.style.transitionDuration="300ms";
+   
+}
+
+let on9=document.getElementById("serve9");
+on9.addEventListener("mouseover",changenine);
+
+function change9(){
+    let get =document.getElementById("serve9");
+    get.style.backgroundColor="white";
+    get.style.transitionDuration="300ms";
+    
+}
+
+let On9=document.getElementById("serve9");
+On9.addEventListener("mouseleave",change9);
+
 
 // background change1
 function changebackg(){
@@ -145,5 +206,3 @@ function changebackg1(){
 
 let back2=document.getElementById("team");
 back2.addEventListener("mouseleave",changebackg1);
-
-
